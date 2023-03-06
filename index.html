@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <!--Font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+
+    <!--My Style-->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!--Logo Tittle-->
+    <link rel="icon" href="Assets/icon.ico" type="image/x-icon" />
+
+    <title>Game Of Life</title>
+  </head>
+  <body>
+    <!--img-->
+    <header>
+
+    </header>
+    <!--Navbar-->
+  
+    <nav class="navbar navbar-expand-lg fixed-top">
+      <div class="container py-3">
+        <a class="navbar-brand" href="#">
+          <img
+            src="Assets/icon.ico"
+            alt="Logo"
+            width="30"
+            class="d-inline-block align-text-top me-1"
+          />
+          Game Of Life</a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item mx-2">
+              <a class="nav-link active" aria-current="page" href="#">HOME</a>
+            </li>
+            <li class="nav-item mx-2">
+              <a class="nav-link" href="#">WORK</a>
+            </li>
+            <li class="nav-item mx-2">
+              <a class="nav-link" href="#">CONTACT</a>
+            </li>
+            <li class="nav-item mx-2">
+              <a class="nav-link" href="#">ABOUT ME</a>
+            </li>
+          </ul>
+          <div>
+            <ul class="navbar-nav ms-auto">
+              
+              <li class="nav-item mx-2">
+                <a class="nav-link" href="#">Sign-Up</a>
+              </li>
+              <li class="nav-item mx-2">
+                <a class="nav-link" href="#">Login</a>
+              </li>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!--Main Screen-->
+    <section class="hero" id="home">
+      <main class="content">
+          <h1 class="text-light">PLAY TRADITIONAL GAME</h1>
+            <p class="text-light">Experience new traditional game play</p>
+            <div style="display: flex; justify-content: center; align-items: center; height: 50%;">
+              <button class="btn btn-warning ">PLAY NOW</button>
+            </div>
+            <h2 class="text-center text-light">The Story</h2>
+            <div style="display: flex; justify-content: center; align-items: center; height: 50%;">
+              <a href="#work">
+                <img src="Assets/scroll-down.svg" alt="">
+              </a>
+            </div>
+
+      </main>
+    </section>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+    <!--End Main Screen-->
+
+    <!--Work Page-->
+   <section class="work" id="work">
+    <div class="row h-100 align-items-center">
+      <div class="col d-flex align-self-start">
+        <div class="row justify-content-center">
+          <div class="col ms-5">
+            <h1 class="text-center text-white">What's so special?</h1>
+            <p class="text-center text-white">THE GAMES</p>
+          </div>
+        </div>
+      </div>
+     
+      <div class="col-9">
+        <div class="row align-items-center justify-content-center">        
+          <div class="col-1 ">
+            <button class="carousel-control-prev ms-auto" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <!-- <span class="carousel-control-prev-icon" aria-hidden="true"></span> -->
+              <span class="visually-hidden">Previous</span>
+              <img src="Assets/switch-left.svg">
+            </button>
+          </div>
+          <div class="col">
+            <div id="carouselExampleIndicators" class="carousel slide">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1">
+                  <i class="fa-solid fa-circle"></i>
+                </button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2">
+                  <i class="fa-solid fa-circle"></i>
+                </button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3">
+                <i class="fa-solid fa-circle"></i>
+              </button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="Assets/rockpaperstrategy-1600.jpg" class="d-block w-100" alt="#">
+              </div>
+              <div class="carousel-item">
+                <img src="Assets/rockpaperstrategy-1600.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="Assets/rockpaperstrategy-1600.jpg" class="d-block w-100" alt="...">
+              </div>
+            </div>
+           
+         
+          </div>
+          </div>
+          <div class="col-1">
+            <button class="carousel-control-next me-auto" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon text-white" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+              <img src="Assets/switch-right.svg">
+            </button>
+        
+         
+          </div>
+        </div>
+          <div class="content ms-auto">
+            
+          
+        </div>
+      </div>
+    </div>
+    <div class="row h-100 align-"></div>
+    </section>
+    <!--End Work Page-->
+    <!-- Fitur Start -->
+    <section class="fitur" id="fitur">
+      <div class="row h-100 align-items-center">
+        <div class="col"></div>
+        <div class="col">
+          <div class="row justify-content-center">
+            <div class="col">
+              <h1 class="text-center text-white">What's so special?</h1>
+            </div>
+            <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!------ Include the above in your HEAD tag ---------->
+
+<div class="container mt-5 mb-5">
+	<div class="row text-white">
+		<div class="col-md-6 offset-md-3">
+			<h4>FEATURES</h4>
+			<ul class="timeline">
+				<li>
+					<a data-bs-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">TRADITIONAL GAMES</a>
+					<p class="collapse multi-collapse" id="multiCollapseExample1">If you miss your childhood, we provide many traditional games here</p>
+				</li>
+				<li>
+					<a data-bs-toggle="collapse" href="#multiCollapseExample2" role="button" aria-expanded="false" aria-controls="multiCollapseExample2">GAME SUIT</a>
+					<p class="collapse multi-collapse" id="multiCollapseExample2">Curabitur purus sem, malesuada eu luctus eget, suscipit sed turpis. Nam pellentesque felis vitae justo accumsan, sed semper nisi sollicitudin...</p>
+				</li>
+				<li>
+					<a data-bs-toggle="collapse" href="#multiCollapseExample3" role="button" aria-expanded="false" aria-controls="multiCollapseExample3">TBD</a>
+					<p class="collapse multi-collapse" id="multiCollapseExample3">Fusce ullamcorper ligula sit amet quam accumsan aliquet. Sed nulla odio, tincidunt vitae nunc vitae, mollis pharetra velit. Sed nec tempor nibh...</p>
+				</li>
+			</ul>
+		</div>
+	</div>
+</div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+    <!-- Fitur End -->
+    <!-- system req start -->
+    <section class="container-fluid" id="system">
+<div class="row">
+  <h1 class="text-center"> Can My Computer Run This Game?</h1>
+</div>
+<div class="row" id="fitursistem">
+  <h1 class="">SYSTEM <br>REQUIREMENTS</h1>
+</div>
+<div class="row ms-3">
+  <div class="col-6">
+  <table>
+    <tr>
+      <td>
+        <h5>OS:</h5>
+        <p>Windows 7 64-bit only
+          (No OSX support at this time)
+          </p>
+      </td>
+      <td> 
+        <h5>PROCESSOR:</h5>
+        <p>
+          Intel Core 2 Duo @ 2.4 GHZ or AMD Athlon X2 @ 2.8 GHZ
+        </p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <h5>MEMORY:</h5>
+        <p>
+          4 GB RAM
+        </p>
+      </td>
+      <td>
+        <h5>STORAGE:</h5>
+        <p>
+          8 GB available space
+        </p>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2">
+        <h5>GRAPHICS:</h5>
+        <p>
+          NVIDIA GeForce GTX 660 2GB or 
+AMD Radeon HD 7850 2GB DirectX11 (Shader Model 5)
+        </p>
+      </td>
+  
+    </tr>
+  </table>
+</div>
+</div>
+    </section>
+    <!-- system req end -->
+    <!-- cards start -->
+    <section class="container-fluid " id="cardskiri" >
+      <div class="row h-100 align-items-center">
+        <div class="col-6 text-white ps-5">
+          <h1>TOP SCORES</h1>
+           <p>This Top Score Various Games Provided On This Platform</p>
+           <button type="button" class="btn btn-warning">SEE MORE</button>
+        </div>
+        <div class="col-6">
+          <div class="row">
+            <div class="col d-flex ps-5" id="quotes">
+              <div class="card">
+                <div class="card-body">
+                  <div class="card-title">
+                    <div class="row">
+                      <div class="col-3">
+                      <img id="ellipse-orange" src="Assets/ellipse-orange.png">
+                      <div class="image-cropper"><img id="foto" src="Assets/evan-lahti.jpg">
+                      </div>
+                    </div>
+                      <div class="col-6" id="cardname">
+                      <h5>Evan Lahti</h5>
+                      <p>PC GAMER</p>
+                      </div>
+                      <div class="col ps-5 py-2">
+                        <img src="Assets/twitter-card.png">
+                      </div>
+                    </div>
+                  </div>
+                  <p class="card-text">“One of my gaming highlights of the year.”</p>
+                  <span class="tgltext">June 18, 2023</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row pt-3">
+            <div class="col d-flex pe-5" id="quotes">
+              <div class="card ">
+                <div class="card-body">
+                  <div class="card-title">
+                    <div class="row">
+                      <div class="col-3">
+                      <img id="ellipse-orange" src="Assets/ellipse-orange.png">
+                      <div class="image-cropper"><img id="foto" src="Assets/evan-lahti.jpg">
+                      </div>
+                    </div>
+                      <div class="col-6" id="cardname">
+                      <h5>Evan Lahti</h5>
+                      <p>PC GAMER</p>
+                      </div>
+                      <div class="col ps-5 py-2">
+                        <img src="Assets/twitter-card.png">
+                      </div>
+                    </div>
+                  </div>
+                  <p class="card-text">“One of my gaming highlights of the year.”</p>
+                  <span class="tgltext">June 18, 2023</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row pt-3">
+            <div class="col d-flex ps-5" id="quotes">
+              <div class="card">
+                <div class="card-body">
+                  <div class="card-title">
+                    <div class="row">
+                      <div class="col-3">
+                      <img id="ellipse-orange" src="Assets/ellipse-orange.png">
+                      <div class="image-cropper"><img id="foto" src="Assets/evan-lahti.jpg">
+                      </div>
+                    </div>
+                      <div class="col-6" id="cardname">
+                      <h5>Evan Lahti</h5>
+                      <p>PC GAMER</p>
+                      </div>
+                      <div class="col ps-5 py-2">
+                        <img src="Assets/twitter-card.png">
+                      </div>
+                    </div>
+                  </div>
+                  <p class="card-text">“One of my gaming highlights of the year.”</p>
+                  <span class="tgltext">June 18, 2023</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- cards end -->
+    <!-- footer starts -->
+    <section class="container-fluid" id="footer">
+      <div class="row">
+        <div class="col-6" >
+          <img src="Assets/skull.png">
+        </div>
+        <div class="col-6">
+          <h3 class="pb-2">Want to stay in <br>touch?</h3>
+          <h1>NEWSLETTER <br>SUBSCRIBE </h1>
+          <p class="pb-5">In order to start receiving our news, all you have to do is enter your email address. Everything else will be taken care of by us. We will send you emails containing information about game. We don’t spam.
+          </p>
+          <div class="d-flex flex-row">
+          <div class="form">
+          <label for="">Your email address</label>
+          <input type="text" placeholder="youremail@binar.co,id">
+          </div>
+          <button class="btn btn-warning ">Subscribe now</button>
+        </div>
+        </div>
+      </div>
+      <div class="row mt-4">
+        <div class="col-8 ">
+          <div class=" d-flex list-unstyled gap-5 float-end align-content-center" id="footermenu">
+          <li>MAIN</li>
+          <li>ABOUT</li>
+          <li>GAME FEATURE</li>
+          <li>SYSTEM REQUIREMENTS</li>
+          <li>QUOTES</li>
+          </div>
+        </div>
+        <div class="col-3">
+          <div class=" d-flex list-unstyled gap-5 float-start ms-5" id="sosmed">
+          <li><img src="Assets/facebook.svg"></li>
+          <li><img src="Assets/twitter.svg"></li>
+          <li><img src="Assets/vector.svg"></li>
+          <li><img src="Assets/twitch.svg"></li>
+        </div>
+        </div>
+      </div>
+   <hr>
+   <div class="row">
+    <div class="col-6">
+      <p>© 2018 Your Games, Inc. All Rights Reserved</p>
+    </div>
+    <div class="col-6 text-end">
+      <p>Privacy Policy | Terms of Services | Code of Conduct </p>
+    </div>
+   </div>
+    </section>
+    <!-- footer end -->
+</div>
+  </body>
+</html>
